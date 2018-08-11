@@ -5,3 +5,11 @@
 .navbar-default {
     background-color: #81ACFC;
 }
+
+.navbar-form .form-control {
+    background-color: #6d9bf1;
+}
+
+.status {
+    background-color: #6d9bf1;
+}
