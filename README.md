@@ -1,6 +1,6 @@
 # Insight UI
 
-A Litecoin blockchain explorer web application service for [Litecore Node](https://github.com/litecoin-project/litecore-node) using the [Insight API](https://github.com/litecoin-project/insight-lite-api).
+A Triskel blockchain explorer web application service for [Litecore Node](https://github.com/litecoin-project/litecore-node) using the [Insight API](https://github.com/litecoin-project/insight-lite-api).
 
 ## Quick Start
 

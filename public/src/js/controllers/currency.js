@@ -44,9 +44,10 @@ angular.module('insight.currency').controller('CurrencyController',
       localStorage.setItem('insight-currency', currency);
 
       if (currency === 'USD') {
-        Currency.get({}, function(res) {
+        $rootScope.currency.factor = 1;
+        /* Currency.get({}, function(res) {
           $rootScope.currency.factor = $rootScope.currency.bitstamp = res.data.bitstamp;
-        });
+        }); */
       } else if (currency === 'lites') {
         $rootScope.currency.factor = 1000;
       } else if (currency === 'photons') {
